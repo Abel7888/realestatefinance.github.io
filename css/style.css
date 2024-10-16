@@ -11,6 +11,51 @@
   margin: 0;
   padding: 0;
 }
+/* Style for header and logo */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #f8f8f8; /* Adjust background as per your design */
+  position: relative; /* Ensures it's positioned correctly */
+  z-index: 100; /* Ensures header is above other content */
+}
+
+.logo img {
+  max-width: 100px; /* Ensures logo doesn't become too large */
+  height: auto; /* Maintains aspect ratio */
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.toggle {
+  display: none; /* If this is a mobile toggle button, adjust it */
+}
+
+/* Adjust spacing for navigation */
+.navigation {
+  padding: 20px;
+  background-color: #fff; /* Adjust the color */
+}
+
+.home {
+  padding-top: 50px; /* Creates space between header and content */
+}
+
+.home img {
+  width: 100%; /* Ensures the home image takes up full width */
+  height: auto; /* Maintains aspect ratio */
+}
+
+.home-content {
+  margin: 20px 0;
+  padding: 10px;
+}
+
 
 html,
 body {
