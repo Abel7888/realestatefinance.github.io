@@ -433,3 +433,84 @@ section.home {
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
   }
 }
+/* Header styling */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #f8f8f8;
+  position: relative;
+  z-index: 100;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling the logo */
+.logo img {
+  max-width: 150px; /* Adjust to fit your design */
+  height: auto;
+}
+
+/* Navigation styling */
+.navigation {
+  display: flex;
+}
+
+.navigation ul {
+  display: flex;
+  list-style: none;
+  gap: 20px; /* Space between menu items */
+}
+
+.navigation ul li a {
+  text-decoration: none;
+  color: #333;
+  padding: 10px 15px;
+  transition: background-color 0.3s ease;
+}
+
+.navigation ul li a:hover {
+  background-color: #ddd;
+  border-radius: 5px;
+}
+
+/* Styling the home section */
+.home {
+  display: flex;
+  align-items: center;
+  padding: 80px 20px; /* Adds spacing between header and content */
+}
+
+.home img {
+  width: 50%; /* Adjust width based on design */
+  height: auto;
+  margin-right: 20px;
+}
+
+.home-content {
+  width: 50%;
+}
+
+.home-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.home-content p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #555;
+}
